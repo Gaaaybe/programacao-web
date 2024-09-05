@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header, footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    border: 1px solid #000;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.7rem;
+  }
+  
+  aside {
+    width: 20%;
+    padding: 1.7rem;
+    text-align: center;
+    border: 1px solid #000;
+  }
+  
+  main {
+    width: 75%;
+    padding: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #000;
+  }
+  
+  article {
+    padding: 1.7rem;
+    text-align: center;
+    border: 1px solid #000;
+  }
+  
