@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    text-align: center;
+    align-items: center;
+}
+
+.conteudo-esquerdo {
+    background-color: aqua;
+    padding: 2em 1em;
+    margin: 1em;
+}
+
+.conteudo-principal {
+    background-color: aquamarine;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+.conteudo-direito {
+    background-color: lightblue;
+    padding: 2em 1em;
+    margin: 1em;
+
+}
