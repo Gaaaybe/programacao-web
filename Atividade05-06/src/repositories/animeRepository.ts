@@ -1,11 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-
-interface Anime {
-  id: string;
-  name: string;
-  genre: string;
-  studio: string;
-}
+import { Anime } from "../models/anime";
 
 class AnimeRepository {
   private static animes: Anime[] = [];

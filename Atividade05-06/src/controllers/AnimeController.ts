@@ -29,7 +29,7 @@ class AnimeController {
       const anime = await AnimeService.criarAnime(req.body);
       res.status(201).json(anime);
     } catch (error) {
-      res.status(500).json({ error: (error as Error).message });
+      res.status(400).json({ error: (error as Error).message });
     }
   }
 
@@ -50,7 +50,7 @@ class AnimeController {
     try {
       const sucesso = await AnimeService.deletarAnime(req.params.id);
       if (sucesso) {
-        res.status(204).send();
+        res.status(204).send("Deletado com sucesso");
       } else {
         res.status(404).json({ message: "Anime not found" });
       }
